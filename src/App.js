@@ -13,10 +13,10 @@ class App extends React.Component {
   }
 
   changeCountry() {
+    let country = countries[Math.floor(Math.random() * countries.length)]
     this.setState({
-      country: "Canada"
+      country: country
     })
-    // document.getElementById("changeCountryBtn")
   }
 
 
