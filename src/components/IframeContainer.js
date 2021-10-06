@@ -9,7 +9,7 @@ function IframeContainer(props) {
 
   return (
     <div className="iframe-container" style={iframeContainerStyling}>
-      <iframe src="https://en.wikipedia.org/wiki/United_States" height="70%" width="70%" title="Wikipedia page of a country"></iframe>
+      <iframe src={"https://en.wikipedia.org/wiki/" + props.country} height="70%" width="70%" title="Wikipedia page of a country"></iframe>
     </div>
   )
 }
