@@ -1,3 +1,3 @@
-Random Country Wikipedia
+# Random Country Wikipedia
 
-Ranomly choose a country to learn about with Wikipedia.
+Randomly choose a country to learn about on Wikipedia.
